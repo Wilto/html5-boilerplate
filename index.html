@@ -28,14 +28,14 @@
   <link rel="stylesheet" href="css/enhanced.css" media="only all" id="enhanced-css">
 
   <!-- 
-If the "enhanced-ie" ID is found, it means the browser that can see it is targeted for the "enhanced" JS experience. Maybe this should be a data attribute or something?
+If the "enhanced-ie" ID is found, it means the browser that can see it is targeted for the "enhanced" CSS experience. Maybe this should be a data attribute or something?
   
 Working on a behind-the-scenes fallback now: when this ID isn't found, any version of IE equal to or lesser than the specified version (UA-detected, *temporarily*) duplicates the enhanced CSS, strips out the media attribute, and appends it to the head. This seems pretty FoUC-less so far.
 
 Edit: no longer UA-detected, so I can stop scrubbing my keyboard now.
 -->
 
-  <!-- Enhanced styles for internet explorer. -->
+  <!-- Enhanced styles for Internet Explorer. -->
   <!--[if gte IE 7]> <link rel="stylesheet" href="css/enhanced.css" id="enhanced-ie"> <![endif]-->
 
 
