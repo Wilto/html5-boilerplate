@@ -265,6 +265,8 @@ td { vertical-align: top; }
 .clearfix { *zoom: 1; }
 
 
+body { background: green; }
+
 
 /* ==|== print styles =======================================================
    Print styles.
