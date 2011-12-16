@@ -21,11 +21,11 @@
 
   <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
 
-  <!-- Basic styles for feature phones/archaic smartphones. -->
+  <!-- Basic styles for feature phones/archaic smartphones. Completely optional. -->
   <link rel="stylesheet" href="css/basic.css" id="basic-css">
 
   <!-- Enhanced styles for everyone else. -->
-  <link rel="stylesheet" href="css/enhanced.css" media="only all" id="enhanced-css">
+  <link rel="stylesheet" href="css/enhanced.css" media="only all" data-min-ie="7">
 
   <!-- 
 If the "enhanced-ie" ID is found, it means the browser that can see it is targeted for the "enhanced" CSS experience. Maybe this should be a data attribute or something?
@@ -34,9 +34,6 @@ Working on a behind-the-scenes fallback now: when this ID isn't found, any versi
 
 Edit: no longer UA-detected, so I can stop scrubbing my keyboard now.
 -->
-
-  <!-- Enhanced styles for Internet Explorer. -->
-  <!--[if gte IE 7]> <link rel="stylesheet" href="css/enhanced.css" id="enhanced-ie"> <![endif]-->
 
 
   <script src="js/libs/modernizr-2.0.6.min.js"></script>
